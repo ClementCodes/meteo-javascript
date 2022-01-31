@@ -1,9 +1,9 @@
 
 import tabJoursEnOrdre from "./gestionTemps.js";
+
+import  CLEAPI from "./apikey.js"
 let resultatApi;
 
-
-const CLEAPI = "67de8116acc29a91f7c60fa57f5e7bbc"
 const temps = document.querySelector(".temps")
 const temperature = document.querySelector(".temperature")
 const localisation = document.querySelector(".localisation")
